@@ -6,9 +6,9 @@ ADD_PASS=''
 ADD_KEY=''
 
 # Do not modify past this point.
-if grep -q "sudo" <<< $(getent group | grep sudo); then
+if grep -q "sudo" <<< $(getent group); then
     SUDO_GROUP='sudo'
-elif grep -q "wheel" <<< $(getent group | grep wheel); then
+elif grep -q "wheel" <<< $(getent group); then
     SUDO_GROUP='wheel'
 else
     echo 'Sudo group not found.'
