@@ -10,12 +10,6 @@ Paragraph text.
 
 Stylize text as **bold**, *italicized*, or ~~strikethrough~~.
 
-==Highlight== text.
-
-~Sub~script
-
-^Super^script
-
 ## Text Blocks
 > Blockquote
 >
@@ -28,6 +22,18 @@ Stylize text as **bold**, *italicized*, or ~~strikethrough~~.
     code block
 }
 ```
+
+```javascript
+var type = "Syntax highlighted code block.";
+var language = "JavaScript";
+alert("Nifty");
+```
+
+> **Note**
+> This is just a note.
+
+> **Warning**
+> The note and warning blockquote names are case-sensitive.
 
 ## Lists
 1. First
