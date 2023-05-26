@@ -9,6 +9,7 @@ Identify the filesystem
 
 Grow partition and resize the volume.
 > `growpart /dev/nvme0n1 1`
+![diskWithPartitions](./img/diskWithPartitions.png)
 
 Resize the volume
 > ext4: `resize2fs /dev/nvme0n1p1`
