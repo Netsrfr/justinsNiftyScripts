@@ -3,12 +3,15 @@
 List disks, note the device to extend, and if it is a disk or a partition.
 > `lsblk`
 > Example: /dev/nvme0n1
+> 
 > ![diskWithPartitions](./img/diskWithPartitions.png)
 
 Identify the filesystem
 > `df -hT`
 
-Grow partition and resize the volume.
+Grow the partition.
+> If resizing a disk, skip this step.
+> 
 > `growpart /dev/nvme0n1 1`
 
 Resize the volume
