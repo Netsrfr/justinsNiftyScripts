@@ -12,5 +12,5 @@ Grow partition and resize the volume.
 
 Resize the volume
 > ext4: `resize2fs /dev/nvme0n1p1`
-
+>
 > xfs: `xfs_growfs -d /`
