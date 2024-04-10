@@ -29,10 +29,10 @@ var language = "JavaScript";
 alert("Nifty");
 ```
 
-> **Note**
+> [!NOTE]
 > This is just a note.
 
-> **Warning**
+> [!WARNING]
 > The note and warning blockquote names are case-sensitive.
 
 ## Lists
